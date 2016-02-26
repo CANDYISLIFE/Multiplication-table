@@ -21,6 +21,7 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
+
 Width=int(input("How many rows wide should the table be? "))
 Height=int(input("How many rows tall should the table be? "))
 a=Width-1
@@ -33,4 +34,8 @@ print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
 print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
 print("The number is: {0:>3}".format(123)) 
 
+a = [1,2,3]
+b = [1,2,3]
 
+ab = [x*2 for x in b]
+print(ab)
