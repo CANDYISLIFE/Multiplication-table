@@ -27,7 +27,7 @@ a=Width-1
 b=Height-1
 x=list(range(0,a))
 y=list(range(0,b))
-print(x)
+
 
 print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
 print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
