@@ -29,12 +29,9 @@ b=Height
 x=list(range(1,a+1))
 y=list(range(1,b+1))
 
-print(x)
-print(y)
-
 print([x[0]*a for a in y])
-print(x[1]*a for a in y)
-print(x[2]*y[:])
+print([x[1]*a for a in y])
+print([x[2]*a for a in y])
 
 
 
