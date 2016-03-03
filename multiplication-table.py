@@ -31,7 +31,8 @@ y=list(range(1,b+1))
 
 
 for row in y:
-    print([row*col for col in x])
+    for num in [row*col for col in x]:
+        print(num, end="")
 
 """
 print([x[1]*a for a in y])
