@@ -33,6 +33,7 @@ y=list(range(1,b+1))
 for row in y:
     for num in [row*col for col in x]:
         print(num, end="")
+    print("stop!")
 
 """
 print([x[1]*a for a in y])
