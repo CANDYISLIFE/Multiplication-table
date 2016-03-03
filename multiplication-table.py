@@ -22,8 +22,8 @@ Height of multiplication table: 8
   8  16  24  32  40  48  56  64  72  80
 """
 
-Width=int(input("How many rows wide should the table be? "))
-Height=int(input("How many rows tall should the table be? "))
+Width=int(input("Width of multiplication table:"))
+Height=int(input("Height of multiplication table:"))
 a=Width
 b=Height
 x=list(range(1,a+1))
